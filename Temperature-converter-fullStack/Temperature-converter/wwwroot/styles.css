@@ -1,0 +1,41 @@
+body {
+    font-family: "Poiret One", serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 10px;
+  }
+  
+  h1 {
+    font-size: 60px;
+    font-weight: 600;
+    padding: 10px;
+  }
+  
+  .convert-container {
+    max-width: 500px;
+    margin: auto;
+    font-weight: 500 !important;
+    align-items: center;
+    align-content: space-evenly;
+  }
+  
+  .form-floating {
+    font-size: 20px;
+  }
+  
+  select {
+    max-width: 150px;
+    padding: 5px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  #convertedData {
+    font-size: 24px;
+    font-weight: bold;
+    color: green;
+  }
