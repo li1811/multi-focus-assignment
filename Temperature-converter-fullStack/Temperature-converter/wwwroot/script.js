@@ -4,14 +4,15 @@ document.getElementById("submit-button").addEventListener("click", () => {
     const startUnit = document.getElementById("from-select").value;
     const endUnit = document.getElementById("to-select").value;
     const temperatureToConvert = document.getElementById("input-number").value;
-    // Call the temperatureConvert function with the fetched values
+    
     convertTemperature(startUnit, endUnit, temperatureToConvert);
   });
 
 function convertTemperature(inputUnit, outputUnit, temperature) {
     const formData = new FormData;
     formData.append("input", temperature)
-    
+
+    // Because all endpoints have the same naming format we only need to write one fetch request, and use string interpolation to make sure it's targetting the right url
     fetch(`http://localhost:5065/${inputUnit}to${outputUnit}`, {
         method: "POST",
         body: formData,

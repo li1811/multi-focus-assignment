@@ -1,3 +1,6 @@
+/*This program converts temperatures. Me and olga worked together on this, she was responsible for the front end, i did the backend. There might be slight differences in our programs but it uses the same logic. Different endpoints for each type of conversion, and a single fetch request with string interpolation.
+I think Olga's looks a lot nicer, she did a lot of front end work that I didn't im*/
+
 using Microsoft.AspNetCore.Mvc;
 
 var builder = WebApplication.CreateBuilder(args);

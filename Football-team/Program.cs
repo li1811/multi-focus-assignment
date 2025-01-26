@@ -1,3 +1,5 @@
+/*This is a football team management program. You can add/update/delete players, as well as collect some useful statistics.*/
+
 using Microsoft.AspNetCore.Mvc;
 
 var builder = WebApplication.CreateBuilder(args);
